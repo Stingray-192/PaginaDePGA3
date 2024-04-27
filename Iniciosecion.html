@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="logopga.png"
+          type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" href="styleiniciosecion.css">
+</head>
+<body>
+  <!-- Barra de navegación visible -->
+  <div class="navbar">
+    <!-- Imagen con enlace -->
+    <a href="http://uruapan.cecytem.net/" class="logo-link">
+      <img src="logocecytem.jpg" alt="Logo" class="logo" style="height: 50px;height: 50px">
+    </a>
+    <a href="index.html">Inicio</a>
+    <a href="Iniciosecion.html">Sesión</a>
+    <a href="news.html">Noticias</a>
+    <a href="contacto.html">Contacto</a>
+  </div>
+
+  <!-- Menú desplegable -->
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-icon">
+  <img src="barrades.png" alt="Menú" style=" height:50px; height:50px">
+</label>
+<div class="sidebar">
+  <a href="material.html">Material Academico</a>
+  <a href="plan.html">Módulos</a>   
+  <a href="horarios.html">Horario</a> 
+  <a href="galeria.html">galeria</a> 
+  <a href="profesores.html">Maestros y Cordinadores</a>
+</div>
+
+  <!-- Contenido de la página -->
+  <div class="content">
+    <h1>Inicio de Sesión</h1>
+      <form action="inicio.html">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+        <label for="grupo">Grupo:</label>
+        <input type="text" id="grupo" name="grupo" required><br><br>
+        <label for="correo">Correo Institucional:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <input type="submit" value="Iniciar Sesión">
+      </form>
+  </div>
+
+  <!-- Pie de página -->
+  <div id="pie-pag">
+    <ul id="listaredes">
+      <li><a href="https://twitter.com/cecytem?lang=es"><img src="x.png" alt="X"></a></li>
+      <li><a href="https://www.instagram.com/cecytemichoacan/"><img src="insta.png" alt="Instagram"></a></li>
+      <li><a href="https://www.facebook.com/CecyteMich/?locale=es_LA"><img src="face.png" alt="Facebook"></a></li>
+    </ul>
+    <img src="logopga.png" alt="Logopp" class="logopp">
+    <div class="info">
+      <h1>Gael Torres</h1>
+      <h2>Fatima Lourdes</h2>
+      <h3>430-B</h3>
+      <h4><a href="Terminos.html">Términos y Condiciones</a></h4>
+    </div>
+  </div>
+
+</body>
+</html>
+
